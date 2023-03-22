@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dog Grooming Services</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Dog Grooming Services</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="banner">
+        <h2>Welcome to Our Dog Grooming Services</h2>
+        <p>We offer the best dog grooming services in the area.</p>
+        <a href="#services" class="button">Learn More</a>
+      </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of professional dog groomers with years of experience. Our goal is to make your dog look and feel their best.</p>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Bathing and drying</li>
+          <li>Brushing and dematting</li>
+          <li>Nail trimming and grinding</li>
+          <li>Ear cleaning and plucking</li>
+          <li>Teeth brushing</li>
+          <li>Hair trimming and styling</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © Dog Grooming Services</p>
+    </footer>
+  </body>
+</html>
